@@ -1,3 +1,5 @@
+import { fakerDataGenerator } from "@utils/helpers/generatedData";
+
 const registrationData = fakerDataGenerator.generateNewUserData();
-registrationData.firstname = 'YOUR_NAME';
-registrationData.lastname = 'YOUR_SURNAME';
+registrationData.firstname = 'Oleksii';
+registrationData.lastname = 'Vasylevych';
